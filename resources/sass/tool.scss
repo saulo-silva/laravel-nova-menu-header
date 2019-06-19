@@ -1,0 +1,32 @@
+// Nova Tool CSS
+//@import '~tailwindcss/components';
+//@import '~tailwindcss/utilities';
+
+@media screen and (min-width: 992px) {
+    .content {
+        min-width: 66.25rem;
+        width: 100%;
+        max-width: none;
+    }
+
+    .navtop {
+        @media screen and (max-width: 320px) {
+            display: none;
+        }
+        h3 {
+            float: left;
+            margin-left: 1.100rem;
+            svg {
+                float: left;
+            }
+            .sidebar-icon {
+                margin-right: .50rem;
+            }
+        }
+    }
+}
+
+.py-view {
+    padding-top: 1rem;
+    padding-bottom: 3.125rem;
+}

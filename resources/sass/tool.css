@@ -1,0 +1,30 @@
+@media screen and (min-width: 992px) {
+  .content {
+    min-width: 66.25rem;
+    width: 100%;
+    max-width: none;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 320px) {
+  .navtop {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navtop h3 {
+    float: left;
+    margin-left: 1.1rem;
+  }
+  .navtop h3 svg {
+    float: left;
+  }
+  .navtop h3 .sidebar-icon {
+    margin-right: 0.5rem;
+  }
+}
+.py-view {
+  padding-top: 1rem;
+  padding-bottom: 3.125rem;
+}
+
+/*# sourceMappingURL=tool.css.map */
